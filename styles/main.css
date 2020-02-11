@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  border: pink solid 2px;
+}
+
+.nav-header {
+  border: rebeccapurple solid 2px;
+}
+
+.logo {
+  border: red solid 2px;
+}
+
+.menu {
+  border: salmon solid 2px;
+}
+
+.main {
+  border: teal solid 2px;
+}
+
+.text {
+  border: turquoise solid 2px;
+}
