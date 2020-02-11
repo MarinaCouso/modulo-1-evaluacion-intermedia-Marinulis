@@ -34,12 +34,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  row-gap: 20px;
-  /* PTE VER CÓMO DISTANCIAMOS 20PX - PADDING? */
-  padding: 0;
+  align-items: flex-start;
   font-size: 16px;
   margin-bottom: 13px;
-
   width: 155px;
 }
 a {
@@ -49,11 +46,6 @@ a:hover {
   background-color: #4a4a4a8f;
   color: white;
   border-radius: 5px;
-}
-
-.menu-items {
-  color: #4a4a4a;
-  /* padding: 0px 20px; */
 }
 
 /* MAIN */
@@ -74,5 +66,13 @@ a:hover {
   flex-direction: column;
 }
 
-/* quitar bordes a todo */
-/* PTE RESPONSIVE */
+@media all and (min-width: 768px) {
+  .nav-header {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 30px;
+  }
+  .text {
+    font-size: 40px;
+  }
+}
