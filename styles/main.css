@@ -1,29 +1,78 @@
-body {
+/* RESET */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
 }
 
+/* HEADER */
 .header {
-  border: pink solid 2px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  margin: 0px;
 }
 
 .nav-header {
-  border: rebeccapurple solid 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
-  border: red solid 2px;
+  width: 155px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .menu {
-  border: salmon solid 2px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  row-gap: 20px;
+  /* PTE VER CÓMO DISTANCIAMOS 20PX - PADDING? */
+  padding: 0;
+  font-size: 16px;
+  margin-bottom: 13px;
+
+  width: 155px;
+}
+a {
+  color: #4a4a4a;
+}
+a:hover {
+  background-color: #4a4a4a8f;
+  color: white;
+  border-radius: 5px;
 }
 
+.menu-items {
+  color: #4a4a4a;
+  /* padding: 0px 20px; */
+}
+
+/* MAIN */
 .main {
-  border: teal solid 2px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3cdbc0;
 }
 
 .text {
-  border: turquoise solid 2px;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
 }
+
+/* quitar bordes a todo */
+/* PTE RESPONSIVE */
